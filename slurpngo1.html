@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slurp N Go</title>
+
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    .navbar {
+      background-color: #b3220a;
+      display: flex;
+      justify-content: space-between; /* logo left, links right */
+      align-items: center;
+      padding: 12px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* Left logo + text container */
+    .navbar .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* Logo */
+    .navbar .logo {
+      height: 70px;
+    }
+
+    /* Brand text */
+    .navbar .brand-name {
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    /* Navigation links */
+    .navbar .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .navbar .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      padding: 6px 10px;
+      border-radius: 50px;
+    }
+
+    .navbar .nav-links a:hover {
+      background-color: white;
+      color: #b3220a;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffcf3;
+      text-align: center;
+    }
+
+    /* Bold title under navbar */
+    .banner-title {
+      margin-top: 10px;
+      font-size: 40px;
+      font-weight: bold;
+      color: #b3220a;
+    }
+
+    /* Social icons section */
+    .social {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .social a {
+      font-size: 32px;
+      color: #333;
+      transition: 0.3s;
+    }
+
+    .social a.facebook:hover { color: #1877F2; }
+    .social a.x:hover { color: #000; }
+    .social a.instagram:hover { color: #E1306C; }
+    .social a.youtube:hover { color: #FF0000; }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <!-- Left: Logo + Text -->
+    <div class="brand">
+      <img src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t39.30808-6/508783077_122109765188898705_1147302336037955275_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHHYZC-ccnNqKsWqnO0LfEmmefQWfbqgqeZ59BZ9uqCpxX1aSe-0lxNnopcIpw7Ha0HnNhA1RkBZmFJlbSa3uAx&_nc_ohc=MZ54Tm_R0oQQ7kNvwGpHZLw&_nc_oc=AdlsyWIpxSF1aJKyNNdF7Yw4t6oJHypBz7t2gwJEsxxx_x6SPRp6Rz3n5LEaR5N0AUs&_nc_zt=23&_nc_ht=scontent.fcrk2-2.fna&_nc_gid=nBQlpylet9FV_hjvyvRTZQ&oh=00_AfZfVRwGlCUJ1bNGD2s7Crcm75cQwWI9yfMjhozMcYBI4g&oe=68CBC89F" 
+           alt="Slurp N Go Logo" class="logo">
+      <span class="brand-name">SLURP N GO</span>
+    </div>
+
+    <!-- Right: Navigation Links -->
+    <div class="nav-links">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="services.html">Products/Services</a>
+    </div>
+  </div> <!-- ✅ Close navbar properly -->
+
+  <!-- Bold text below navbar -->
+  <div class="banner-title">
+    WELCOME TO SLURP AND GO
+  </div>
+
+  <img src="https://scontent.fcrk2-1.fna.fbcdn.net/v/t39.30808-6/508964719_122109778208898705_2488522981830485020_n.png?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeFIJpGnincp7vjwGpvbMBBQVodkJiAI2mRWh2QmIAjaZBfkteV8tx6THTSfA0j9nwbyb9j7C_GMIEeoWVZF52nJ&_nc_ohc=tH24irdsg0EQ7kNvwG1zAqK&_nc_oc=AdnkWurpvSbWP4VgpcMmZr1x2KPbCaUrQFcYPhTCgUkrT0ag5NH_XV8Zk8kCNj6nP-0&_nc_zt=23&_nc_ht=scontent.fcrk2-1.fna&_nc_gid=HVnDXxSY5FwmJTDjTeW1qg&oh=00_AfY-j7n3UvQDr0XzDXVrKUtoqk0V2aqHLwhW0yP0F0oDPA&oe=68CBC065" width="100%">
+
+  <!-- Social Media Icons (below banner) -->
+  <div class="social">
+    <a href="https://web.facebook.com/profile.php?id=61576961176838" target="_blank" rel="noopener noreferrer" class="facebook" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/slurp_n.go?igsh=MTloMTFpdTc5bnZmbA==" target="_blank" rel="noopener noreferrer" class="instagram" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://twitter.com/yourProfile" target="_blank" rel="noopener noreferrer" class="x" aria-label="X">
+      <i class="fab fa-x-twitter"></i>
+    </a>
+    <a href="https://www.youtube.com/yourChannel" target="_blank" rel="noopener noreferrer" class="youtube" aria-label="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+  </div>
+
+</body>
+</html>
