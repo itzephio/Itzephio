@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slurp N Go</title>
+  
+  <style>
+    .navbar {
+      background-color: #b3220a;
+      display: flex;
+      justify-content: space-between; /* space between left and right */
+      align-items: center;
+      padding: 12px 24px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    /* Left logo + text container */
+    .navbar .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px; /* spacing between logo and text */
+    }
+
+    /* Logo */
+    .navbar .logo {
+      height: 70px;
+    }
+
+    /* Brand text */
+    .navbar .brand-name {
+      color: white;
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    /* Navigation links */
+    .navbar .nav-links {
+      display: flex;
+      gap: 25px;
+    }
+
+    .navbar .nav-links a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      padding: 6px 10px;
+      border-radius: 50px;
+    }
+
+    .navbar .nav-links a:hover {
+      background-color: white;
+      color: #b3220a;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #fffcf3;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <!-- Left: Logo + Text -->
+    <div class="brand">
+      <img src="slurp and go.jpg" alt="Slurp N Go Logo" class="logo">
+      <span class="brand-name">SLURP N GO Foodhouse</span>
+    </div>
+
+    <!-- Right: Navigation Links -->
+    <div class="nav-links">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="services.html">Products/Services</a>
+    </div>
+  </div>
+</body>
+</html>
